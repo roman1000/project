@@ -1,0 +1,121 @@
+.warrpe{
+    width: 100vw;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.about__u{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+
+}
+
+.about__up--im,.about__up--tex{
+    margin: 10px;
+}
+
+
+.about__up--tex{
+    font-family: fantasy;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.down__about-on{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 250px;
+    text-align: left;
+    font-size: 14pt;
+}
+
+.down__about-tw{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 250px;
+    text-align: left;
+    font-size: 14pt;
+}
+
+.down__about-thre{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 250px;
+    text-align: left;
+    font-size: 14pt;
+}
+
+.down__about-fou{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 250px;
+    text-align: left;
+    font-size: 14pt;
+}
+
+.down__about-fiv{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 250px;
+    text-align: left;
+    font-size: 14pt;
+}
+
+.down__about-si{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 250px;
+    text-align: left;
+    font-size: 14pt;
+}
+
+.down__about-seve{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 250px;
+    text-align: left;
+    font-size: 14pt;
+}
+
+
+
+.dow{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width:768px){
+    .on{
+        display: flex;
+        flex-direction: row;
+    }
+    .tw{
+        display: flex;
+        flex-direction: row;
+    }
+    .thre{
+        display: flex;
+        flex-direction: row;
+    }
+    .fou{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width:1300px){
+    .down__on{
+        display: flex;
+        flex-direction: row;
+    }
+    .down__tw{
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            right: 145px;
+    }
+}

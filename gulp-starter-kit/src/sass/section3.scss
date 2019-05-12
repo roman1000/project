@@ -1,0 +1,131 @@
+.warrper{
+    width: 100vw;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.about__up{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+
+}
+
+.about__up--img,.about__up--text{
+    margin: 10px;
+}
+
+
+.about__up--text{
+    font-family: fantasy;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.block__first--text{
+    font-size: 20px;
+    font-family: fantasy;
+    font-weight: 500;
+    font-size: 34px;
+    margin: 25px;
+    
+}
+
+.block{
+    width: 280px;
+    background: #fafafa;
+    height: 255px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.block__s--text{
+    margin: auto;
+    width: 220px;
+}
+
+.block__three--text{
+    font-size: 30pt;
+    color: rgba(233, 172, 56, 255);
+    font-family: fantasy;
+    margin: 25px;
+}
+
+.block__three--text , .block__four--text{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.block__four--text{
+    text-decoration-line: underline;
+    text-decoration-color: rgba(233, 172, 56, 255);
+    color: rgba(233, 172, 56, 255);
+    position: relative;
+    bottom: 30px;
+}
+
+
+.block:hover{
+    background: #e9ac38;
+}
+
+.block:hover  .block__s--text{
+    color: #fafafa;
+}
+
+.block:hover .block__three--text{
+    color: #fafafa;
+}
+
+.block:hover .block__four--text{
+    color: #fafafa;
+    text-decoration-color: #fafafa;
+}
+
+.down__block{
+    width: 100%;
+    align-items: center;
+}
+
+@media screen and (min-width:768px){
+    .down__block--first,.down__block--s{
+        display: flex;
+        flex-direction: column;
+    }
+    .down__block--first{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .down__block--s{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .block{
+        width: 280px;
+        background: #fafafa;
+        height: 255px;
+        margin: 0px;
+        border-radius: 0;
+    }
+
+    .down__block{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 1300px){
+    .down__block{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+}

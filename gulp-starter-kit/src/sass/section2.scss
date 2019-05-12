@@ -1,0 +1,144 @@
+.warrper{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.about__first::before{
+    content: "“";
+    color: orange;
+    height: 40px;
+    margin: 5px;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+.one{
+    width: 80vw;
+    height: 250px;
+    background: yellowgreen;
+    border-radius: 20px;
+    margin: 20px;font-family: 'Roboto', sans-serif;
+}
+
+.one-p{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0;font-family: 'Roboto', sans-serif;
+    
+}
+
+.about__first,.about__sd{
+    margin: 19px;font-family: 'Roboto', sans-serif;
+}
+
+.qwe{
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    margin: auto;font-family: 'Roboto', sans-serif;
+}
+
+.about__down{
+    width: 80%;
+    height: 250px;
+    background: purple;
+    align-items: center;
+    border-radius: 20px;
+    align-items: center;
+    margin: auto;font-family: 'Roboto', sans-serif;
+}
+
+.about__down--text{
+    width: 70vw;
+    
+    color: white;
+    text-align: center;
+    margin: 10px;font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
+}
+
+.about__down--text::before{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 70px;
+    background: orange;
+    text-align: center;
+    margin: 8px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+@media screen and (min-width:768px){
+    .about__first::before{
+        content: "“";
+        color: orange;
+        height: 40px;
+        margin: 5px;
+        position: relative;
+        top: 20px;
+        right: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 50px;
+    }
+
+    .about__down--text{
+        text-align: left;
+        margin: 100px;
+        
+    }
+    .section--about{
+        margin: 30px;
+    }
+
+    .about__down--text::before{
+        content: '';
+        
+        height: 60px;
+        width: 3px;
+        background: orange;
+        text-align: center;
+        top: 95px;
+        position: relative;
+        left: -20px;
+        transform: translate(-50%,-50%);
+    }
+    .about__down--text{
+        margin-top: 10px;
+        
+    }
+    
+    .about__down  .about__down--text{
+        width: 60%;
+    }
+
+    .about__down{
+        border-radius: 0px;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .section-two{
+        display: flex; 
+        flex-direction: row-reverse;
+    
+    }
+    .one{
+        border-radius: 0;
+        width: 653px;
+    }
+
+    .section--about,.one{
+        margin: 10px -50px;
+    }
+    .about__down  .about__down--text{
+        width: 100%;
+    }
+}

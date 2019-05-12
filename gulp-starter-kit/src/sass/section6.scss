@@ -1,0 +1,166 @@
+.warrp{
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #222222;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.footer__i{
+    margin: 20px;
+}
+
+.about__te{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(150, 153, 166, 255);
+    margin: 20px;
+}
+
+
+.butt{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16pt;
+    background: #e9ac38;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    border-radius: 5px;
+    height: 42px;
+    padding-top: 10px;
+    margin: 20px;
+}
+
+.about__text--o{
+    margin: 30px 0;
+    font-size: 14pt;
+}
+
+.about__text--t{
+    margin: 10px;
+    font-size: 14pt;
+    margin: 20px 0;
+}
+
+.vk{
+    margin: 20px;
+}
+
+.footer__do{
+    background: #151515;
+    width: 100%;
+    height: 100px;
+    color: rgba(98, 98, 99, 255);
+    margin: 10px;
+    text-align: left;
+    
+    
+}
+
+
+.footer__do p{
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    position: relative;
+    left: 20px;
+    width: 225px;
+}
+
+@media screen and (min-width:768px){
+    .warrp{
+        height: 330px;
+    }
+    .footer__do{
+        height: 49px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+    .footer__about--do{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer__do p{
+        display: inline-flex;
+        margin: 15px 0;
+        left: 90px;
+        
+    }
+
+    .about__text--o{
+        font-size: 12pt;
+    }
+
+    .about__text--t{
+        font-size: 12pt;
+    }
+
+    .about__te{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        right: 50px;
+        
+    }
+
+    .vk{
+        position: relative;
+        bottom: 130px;
+        left: 190px;
+        transform: scale(1.5,1.5);
+    }
+    
+    .butt{
+        margin: 20px;
+        position: relative;
+        top: 30px;
+    }
+
+    .footer__do{
+        position: relative;
+        bottom: 120px;
+    }
+
+    .footer__i{
+        position: relative;
+        right: 290px;
+        top: 50px;
+        transform: scale(1.2,1.2);
+    }
+
+}
+
+@media screen and (min-width:1300px){
+    .vk{
+        left: 530px;
+        bottom: 220px;
+    }
+
+    .about__text--o{
+        position: relative;
+        right: 150px;
+    }
+
+    .about__text--t{
+        position: relative;
+        right: 100px;
+    }
+
+    .footer__i{
+        right: 470px;
+    }
+}
